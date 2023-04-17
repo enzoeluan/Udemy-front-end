@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Inputs</title>
+</head>
+<body>
+    <h1>Input</h1>
+<!--Vários tipos de input-->
+    <form>
+        <label>Texto: </label>
+        
+        <input type="text" placeholder="texto" required> <!--Texto Normal-->
+        <!--Required serve para bloquear o envio se não estiver nada preenchido.-->
+        <br/><br/>
+
+        <label>Senha: </label>
+
+        <input type="password"> <!--Esconde o que está sendo escrito-->
+
+        <br/><br/>
+
+        <label>Email: </label>
+
+        <input type="email"> <!--Só aceita respostas se tiver "@" (Mesmo sem JavaScript rodando)-->
+
+        <br/><br/>
+
+        <label>Data: </label>
+
+        <input type="datetime-local"> <!--Date(dia) ou datetime-Local(dia e hora). -->
+
+        <br/><br/>
+
+        <label>Número: </label>
+
+        <input type="number" min="0", max="10"> <!--Aceita apenas números. Aceita atributos de min e max, criando um intervalo de valores válidos.-->
+
+        <br/><br/>
+
+        <label>Arquivo: </label>
+
+        <input type="file"> <!--Escolher arquivo do computador.-->
+
+        <br/><br/>
+
+        <p>Escolha uma opção</p> 
+
+        <input type="radio" name="web" id="python"> <!--Seleciona Apenas uma opção(Utilizando o atributo "name", que tem que ter o mesmo valor.)-->
+        <Label for="python">Python</Label>
+        <input type="radio" name="web" id="js">
+        <Label for="js">JS</Label>
+        <input type="radio" name="web" id="c">
+        <Label for="c">C</Label>
+        
+        <!--"id" e "for" servem para poder selecionar a opção clicando também nos nomes e não necessariamente no espaço designado.-->
+
+        <br/><br/>
+
+        <p>Escolha uma opção</p> 
+
+        <input type="checkbox" name="web" id="pythoncheck"> <!--Seleciona várias opções.(Utilizando o atributo "name")-->
+        <Label for="pythoncheck">Python</Label>
+        <input type="checkbox" name="web">
+        <Label>JS</Label>
+        <input type="checkbox" name="web">
+        <Label>C</Label>
+        
+        <br/><br/>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
