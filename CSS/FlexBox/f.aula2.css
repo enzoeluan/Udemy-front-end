@@ -1,0 +1,25 @@
+header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(17, 182, 182);
+    padding-left: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+header nav {
+    margin-right: 10px;
+}
+
+header button {
+    margin: 5px;
+}
