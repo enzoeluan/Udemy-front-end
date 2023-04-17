@@ -1,0 +1,21 @@
+div {
+    width: 300px;
+    height: 150px;
+    
+    background:#ddd;
+
+    /*overflow serve para quando há um conteúdo saindo do elemento, então ele faz a manutenção do mesmo.*/
+
+    /*overflow: hidden;*/
+    /*overflow: scroll;*/
+    overflow: auto;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+div p {
+    font-size: 1.5em;
+
+    /*float serve para determinar o lado do conteúdo no elemento.*/
+    float: left;
+}

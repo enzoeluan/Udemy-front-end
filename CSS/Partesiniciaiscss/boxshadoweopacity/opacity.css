@@ -1,0 +1,15 @@
+div {
+    width: 250px;
+    height: 250px;
+
+    background: blue;
+    /*box-shadow: 15px 10px 5px 10px rgba(0, 0, 0, 0.5);*/
+    /*- o primeiro valor é a distãncia que a sombra tem a partir do final da div
+    - o segundo valor é a distancia de diferença do topo da div ate a sombra
+    - o terceiro valor é o quão borrada a sombra fica
+    - o quarto é o espalhamento da sombra.
+    - por fim, a cor. 
+    */
+    opacity: 0.1;
+    /*Valores : 0 a 1 */
+}

@@ -1,0 +1,11 @@
+div {
+    width: 250px;
+    height: 250px;
+
+    background: linear-gradient(to right, blue, black);
+    /*faz o degradê de cores
+    valores(separados por virgula):
+    - direção.
+    - cores.
+    */
+}

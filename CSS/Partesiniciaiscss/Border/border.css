@@ -1,0 +1,43 @@
+.red {
+    width: 100px;
+    height: 100px;
+
+    border: 10px solid #f33;
+}
+
+.red1 {
+    width: 100px;
+    height: 100px;
+
+    border: 10px dotted #f33;
+}
+
+.red2 {
+    width: 100px;
+    height: 100px;
+
+    border: 10px dashed #f33;
+}
+
+.red3 {
+    width: 100px;
+    height: 100px;
+
+    border: 10px double #f33;
+}
+
+.red4 {
+    width: 100px;
+    height: 100px;
+
+    border: 10px groove #f33;
+}
+
+
+.green {
+    width: 100px;
+    height: 100px;
+
+    border: 5px double green;
+    border-radius: 40px;
+}

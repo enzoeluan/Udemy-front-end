@@ -1,0 +1,14 @@
+#blue {
+    background: blue;
+}
+
+.green {
+    background: green;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+
+    background: red;
+}

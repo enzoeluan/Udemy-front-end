@@ -1,0 +1,40 @@
+
+p {
+    font-size: 50px;
+    color: #f33;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.red {
+    background-color: #f33;
+
+    width: 100px;
+    height: 100px;
+}
+
+.green {
+    background-color: green;
+
+    width: 100px;
+    height: 100px;
+}
+
+.grey {
+    background-color: #333;
+    
+    width: 100vw;
+    height: 100vh;
+}
+
+#pai {
+    
+
+    background: #ddd;
+    font-size: 15px;
+}
+
+#filho {
+    font-size: 4em;
+}

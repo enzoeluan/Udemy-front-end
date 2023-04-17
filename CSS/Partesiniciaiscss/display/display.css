@@ -1,0 +1,19 @@
+.none {
+    display: none;
+}
+
+.inline {
+    display: inline;
+}
+
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+span {
+    display: block;
+}

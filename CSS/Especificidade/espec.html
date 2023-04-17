@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Especificidade</title>
+    <link rel="stylesheet" href="./style2.css">
+</head>
+<body>
+    <div class="green" id="blue" style="background-color: antiquewhite;"></div>
+    
+    <!--
+        (Quanto mais específico, o css seleciona como prioridade.)
+        Lista de especificidade no css(Menos específico no topo, Mais especifico no fundo):
+        - Seletores Universais
+        - Tipos de seletores
+        - Classes seletores
+        - Atributos Seletores
+        - Pseudo-classes
+        - Seletores ID
+        - Estilo Inline (Evitar, por altas chances de criar confusão)
+        - !important (Evitar por ser exceção)
+    -->
+    <!--
+        Então, na div acima, o mais especifico vai ser o style dentro da div, por ser inline.
+        e assim, será selecionado pelo css e utilizado, ignorando os outros.
+    -->
+</body>
+</html>
