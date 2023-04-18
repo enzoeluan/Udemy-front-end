@@ -11,8 +11,8 @@ header {
 
 header h1 {
     width: 100px;
-    margin-top: 7.5px;
-    margin-left: 20px;
+    /* margin-top: 7.5px; */
+    margin-left: 20%px;
 
     color: #fff;
     font-weight: 700;   
